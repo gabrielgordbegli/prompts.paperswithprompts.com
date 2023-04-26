@@ -1,4 +1,12 @@
-.page {
+.flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  padding: 1em;
+  width: 50%;
+  height: 50%;
 }
